@@ -1,6 +1,5 @@
 backend:
-  name: bitbucket
-  repo: grandecastelo/think_graph
+  name: github
   branch: master # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
