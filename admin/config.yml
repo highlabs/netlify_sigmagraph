@@ -1,5 +1,6 @@
 backend:
   name: bitbucket
+  repo: grandecastelo/think_graph
   branch: master # Branch to update (master by default)
 
 media_folder: "img/uploads" # Folder where user uploaded files should go
@@ -17,3 +18,4 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Arquivo Data", name: "data_json", widget: "file"}
     meta: # Meta data fields. Just like fields, but without any preview element
       - {label: "Publish Date", name: "date", widget: "datetime", format: "YYYY-MM-DD hh:mm:ss"}
+
